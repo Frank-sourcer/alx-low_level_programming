@@ -6,12 +6,7 @@
  */
 int main(void)
 {
-char T[10] = "_putchar\n";
-int i = 0;
+  _putchar("_putchar\n");
 
-for (i = 0; i < 10; i++)
-{
-_putchar(T[i]);
-}
-return (0);
+  return (0);
 }
